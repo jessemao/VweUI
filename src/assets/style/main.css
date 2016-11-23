@@ -1,0 +1,35 @@
+.page__header {
+  text-align: center;
+  font-size: 34px;
+  color: #3cc51f;
+  font-weight: 400;
+  margin: 0 15%;
+  padding: 2em 0;
+}
+
+.header__title {
+  text-align: center;
+  font-size: 34px;
+  color: #3cc51f;
+  font-weight: 400;
+  margin: 0 15%;
+}
+
+.header__desc {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.page__body--spacing {
+  padding: 0 15px;
+}
+
+.button-sp-area {
+  padding: 10px 0;
+  width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  font-size: 0;
+}
