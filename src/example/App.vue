@@ -43,9 +43,9 @@ export default {
           image: '/static/images/icon_nav_article.png'
         },
         {
-          text: 'Panel',
-          url: 'panel',
-          image: '/static/images/icon_nav_panel.png'
+          text: 'Message',
+          url: 'message',
+          image: '/static/images/icon_nav_msg.png'
         },
         {
           text: 'Progress',
