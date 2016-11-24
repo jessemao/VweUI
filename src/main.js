@@ -8,6 +8,7 @@ import Message from './example/message'
 import MessageSuccess from './example/message_success'
 import MessageFail from './example/message_fail'
 import Toast from './example/toast'
+import NavBar from './example/navbar'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -21,6 +22,7 @@ const routes = [
   { path: '/message_success', component: MessageSuccess },
   { path: '/message_fail', component: MessageFail },
   { path: '/toast', component: Toast },
+  { path: '/navbar', component: NavBar },
   { path: '/', component: App }
 ]
 
