@@ -10,6 +10,7 @@ import MessageFail from './example/message_fail'
 import Toast from './example/toast'
 import NavBar from './example/navbar'
 import TabBar from './example/tabbar'
+import SearchBar from './example/searchbar'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -25,6 +26,7 @@ const routes = [
   { path: '/toast', component: Toast },
   { path: '/navbar', component: NavBar },
   { path: '/tabbar', component: TabBar },
+  { path: '/searchbar', component: SearchBar },
   { path: '/', component: App }
 ]
 
