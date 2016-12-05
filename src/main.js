@@ -11,6 +11,7 @@ import Toast from './example/toast'
 import NavBar from './example/navbar'
 import TabBar from './example/tabbar'
 import SearchBar from './example/searchbar'
+import Cell from './example/cell'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -27,6 +28,7 @@ const routes = [
   { path: '/navbar', component: NavBar },
   { path: '/tabbar', component: TabBar },
   { path: '/searchbar', component: SearchBar },
+  { path: '/cell', component: Cell },
   { path: '/', component: App }
 ]
 
