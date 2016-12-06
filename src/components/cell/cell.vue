@@ -1,12 +1,12 @@
 <template>
   <div class="weui-cell" :class="dynamicClass">
-    <cell-header v-if="hasHeader">
+    <cell-header>
       <slot name="header"></slot>
     </cell-header>
     <cell-body>
       <slot name="body"></slot>
     </cell-body>
-    <cell-footer v-if="hasFooter || hasWarning">
+    <cell-footer>
       <i v-if="hasWarning" class="weui-icon-warn"></i>
       <slot name="footer"></slot>
     </cell-footer>
@@ -20,15 +20,11 @@ import cellFooter from './cell_footer'
 
 export default {
   props: {
-    hasHeader: {
-      type: Boolean,
-      default: true
-    },
-    hasFooter: {
+    hasWarning: {
       type: Boolean,
       default: false
     },
-    hasWarning: {
+    canAccess: {
       type: Boolean,
       default: false
     }
@@ -36,7 +32,8 @@ export default {
   computed: {
     dynamicClass: function () {
       return {
-        'weui-cell_warn': this.hasWarning
+        'weui-cell_warn': this.hasWarning,
+        'weui-cell_access': this.canAccess
       }
     }
   },

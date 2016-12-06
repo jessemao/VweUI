@@ -15,6 +15,7 @@ import Cell from './example/cell'
 import Uploader from './example/uploader'
 import Gallery from './example/gallery'
 import Article from './example/article'
+import Badge from './example/badge'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -35,6 +36,7 @@ const routes = [
   { path: '/uploader', component: Uploader },
   { path: '/gallery', component: Gallery },
   { path: '/article', component: Article },
+  { path: '/badge', component: Badge },
   { path: '/', component: App }
 ]
 
