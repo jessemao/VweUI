@@ -14,6 +14,7 @@ import SearchBar from './example/searchbar'
 import Cell from './example/cell'
 import Uploader from './example/uploader'
 import Gallery from './example/gallery'
+import Article from './example/article'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -33,6 +34,7 @@ const routes = [
   { path: '/cell', component: Cell },
   { path: '/uploader', component: Uploader },
   { path: '/gallery', component: Gallery },
+  { path: '/article', component: Article },
   { path: '/', component: App }
 ]
 
