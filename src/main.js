@@ -13,6 +13,7 @@ import TabBar from './example/tabbar'
 import SearchBar from './example/searchbar'
 import Cell from './example/cell'
 import Uploader from './example/uploader'
+import Gallery from './example/gallery'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -31,6 +32,7 @@ const routes = [
   { path: '/searchbar', component: SearchBar },
   { path: '/cell', component: Cell },
   { path: '/uploader', component: Uploader },
+  { path: '/gallery', component: Gallery },
   { path: '/', component: App }
 ]
 
