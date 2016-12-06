@@ -12,6 +12,7 @@ import NavBar from './example/navbar'
 import TabBar from './example/tabbar'
 import SearchBar from './example/searchbar'
 import Cell from './example/cell'
+import Uploader from './example/uploader'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -29,6 +30,7 @@ const routes = [
   { path: '/tabbar', component: TabBar },
   { path: '/searchbar', component: SearchBar },
   { path: '/cell', component: Cell },
+  { path: '/uploader', component: Uploader },
   { path: '/', component: App }
 ]
 
