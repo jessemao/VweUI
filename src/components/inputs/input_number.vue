@@ -1,5 +1,5 @@
 <template>
-  <weui-cell :has-warning="hasWarning" :has-header="hasHeader" :has-footer="hasFooter">
+  <weui-cell :has-warning="hasWarning">
     <label slot="header" class="weui-label">{{label}}</label>
     <input slot="body" class="weui-input" type="number" :pattern="pattern" :name="name" :placeholder="placeholder" v-model="value" />
   </weui-cell>

@@ -1,5 +1,5 @@
 <template>
-  <div class="weui-cell" :class="classObject">
+  <router-link :to="toUrl" class="weui-cell weui-cell_link" :class="classObject">
     <div class="weui-cell__hd">
       <slot name="header"></slot>
     </div>
@@ -10,14 +10,14 @@
       <i v-if="hasWarning" class="weui-icon-warn"></i>
       <slot name="footer"></slot>
     </div>
-  </div>
+  </router-link>
 </template>
 <script>
 export default {
   props: {
     canAccess: {
       type: Boolean,
-      default: false
+      default: true
     },
     hasWarning: {
       type: Boolean,

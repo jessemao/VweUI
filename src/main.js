@@ -19,6 +19,7 @@ import Badge from './example/badge'
 import Footer from './example/footer'
 import Icon from './example/icon'
 import Loadmore from './example/loadmore'
+import Panel from './example/panel'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -43,6 +44,7 @@ const routes = [
   { path: '/footer', component: Footer },
   { path: '/icon', component: Icon },
   { path: '/loadmore', component: Loadmore },
+  { path: '/panel', component: Panel },
   { path: '/', component: App }
 ]
 

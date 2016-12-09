@@ -54,7 +54,7 @@
 
 <script>
 import {InputRadio, InputCheckBox, InputNumber, InputTelVerify, InputDate, InputSwitch, InputText, InputTextArea, InputSelect, Form, FormTitle, FormTips} from 'components/inputs'
-import {Cell} from 'components/cell'
+import Cell from 'components/cell'
 
 export default {
   data () {

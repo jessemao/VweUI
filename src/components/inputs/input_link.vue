@@ -1,5 +1,5 @@
 <template>
-  <router-link class="weui-cell weui-cell_link">
+  <router-link :to="toUrl" class="weui-cell weui-cell_link">
     <cell-header v-if="hasHeader">
       <slot name="header"></slot>
     </cell-header>
@@ -24,6 +24,10 @@ export default {
     hasFooter: {
       type: Boolean,
       default: false
+    },
+    toUrl: {
+      type: String,
+      default: 'javascript:void(0);'
     }
   },
   components: {
