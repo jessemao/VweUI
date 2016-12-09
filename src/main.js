@@ -21,6 +21,7 @@ import Icon from './example/icon'
 import Loadmore from './example/loadmore'
 import Panel from './example/panel'
 import Preview from './example/preview'
+import Progress from './example/progress'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -47,6 +48,7 @@ const routes = [
   { path: '/loadmore', component: Loadmore },
   { path: '/panel', component: Panel },
   { path: '/preview', component: Preview },
+  { path: '/progress', component: Progress },
   { path: '/', component: App }
 ]
 
