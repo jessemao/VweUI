@@ -20,6 +20,7 @@ import Footer from './example/footer'
 import Icon from './example/icon'
 import Loadmore from './example/loadmore'
 import Panel from './example/panel'
+import Preview from './example/preview'
 import './assets/style/weui.css'
 import './assets/style/main.css'
 
@@ -45,6 +46,7 @@ const routes = [
   { path: '/icon', component: Icon },
   { path: '/loadmore', component: Loadmore },
   { path: '/panel', component: Panel },
+  { path: '/preview', component: Preview },
   { path: '/', component: App }
 ]
 
