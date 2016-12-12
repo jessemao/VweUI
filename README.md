@@ -1,6 +1,7 @@
 # VeUI
 
-> WeUI for vue 2.0
+> WeUI for vue 2.0.
+> 使用 Vue.js 2.0 为微信 WeUI(1.0+) 库进行量身设计、封装。目前所有组件均已封装完毕，将会在接下来一段时间陆续更新使用文档，发布至NPM registry。
 
 ## Build Setup
 
