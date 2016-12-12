@@ -1,9 +1,9 @@
 {
-  "name": "veui",
+  "name": "vweui",
   "version": "0.1.0",
   "description": "使用Vue封装，为微信Web服务量身设计，(capabale with Vue 2.0+)",
   "author": "Jingxian Mao",
-  "main": "/dist/js/veui.js",
+  "main": "/dist/js/vweui.js",
   "license": "MIT",
   "keywords": [
     "Vue",

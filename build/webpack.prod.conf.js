@@ -19,8 +19,8 @@ var webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     path: config.build.assetsRoot,
-    filename: utils.assetsPath('js/veui.js'),
-    library: 'VeUI',
+    filename: utils.assetsPath('js/vweui.js'),
+    library: 'VweUI',
     libraryTarget: 'umd'
   },
   vue: {
