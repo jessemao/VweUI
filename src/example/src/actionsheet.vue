@@ -29,9 +29,7 @@
 </template>
 
 <script>
-import Button from 'components/button'
-import ActionSheet from 'components/actionsheet'
-
+import {Button, ActionSheet} from '../../../dist/js/veui'
 export default {
   data () {
     return {

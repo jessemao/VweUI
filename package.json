@@ -1,9 +1,17 @@
 {
-  "name": "vue-playground",
-  "version": "1.0.0",
-  "description": "playground for vue 2.0",
+  "name": "veui",
+  "version": "0.1.0",
+  "description": "使用Vue封装，为微信Web服务量身设计，(capabale with Vue 2.0+)",
   "author": "Jingxian Mao",
-  "private": true,
+  "main": "/dist/js/veui.js",
+  "license": "MIT",
+  "keywords": [
+    "Vue",
+    "Vue.js",
+    "Vue.js 2.0",
+    "WeUI",
+    "WeUI 1.0"
+  ],
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
