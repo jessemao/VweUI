@@ -54,8 +54,7 @@
 </template>
 
 <script>
-import Button from 'components/button'
-import Dialog from 'components/dialog'
+import {Button, Dialog} from 'vweui'
 export default {
   data () {
     return {

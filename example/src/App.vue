@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Grid from 'components/grid'
+import {Grid} from 'vweui'
 export default {
   data () {
     return {

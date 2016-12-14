@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import NavBar from 'components/navbar'
+import {NavBar} from 'vweui'
 
 export default {
   data () {

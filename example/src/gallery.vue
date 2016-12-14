@@ -8,7 +8,7 @@
   </div>
 </template>
 <script>
-import Gallery from 'components/gallery'
+import {Gallery} from 'vweui'
 export default {
   data () {
     return {

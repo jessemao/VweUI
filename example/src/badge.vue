@@ -54,9 +54,7 @@
   </div>
 </template>
 <script>
-import {Form, FormTitle} from 'components/inputs'
-import {Cell} from 'components/cell'
-import Badge from 'components/badge'
+import {Form, FormTitle, Cell, Badge} from 'vweui'
 export default {
   components: {
     'weui-form': Form,

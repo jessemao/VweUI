@@ -1,5 +1,5 @@
 <template>
-  <weui-message icon="success" title="操作成功">
+  <weui-message icon="warn" title="操作失败">
     <span slot="content">内容详情，可根据实际需要安排</span>
     <weui-button-area slot="operation">
       <weui-button type="primary">确定</weui-button>
@@ -10,9 +10,7 @@
 </template>
 
 <script>
-import ButtonArea from 'components/button_area'
-import Button from 'components/button'
-import Message from 'components/message'
+import {ButtonArea, Button, Message} from 'vweui'
 
 export default {
   components: {

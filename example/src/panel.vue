@@ -36,9 +36,7 @@
 </template>
 
 <script>
-import MediaBox, {MediaBoxText, MediaBoxInfo} from 'components/mediabox'
-import Panel from 'components/panel'
-import {LinkCell} from 'components/cell'
+import {MediaBox, MediaBoxText, MediaBoxInfo, Panel, LinkCell} from 'vweui'
 export default {
   data () {
     return {

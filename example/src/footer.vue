@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Footer from 'components/footer'
+import {Footer} from 'vweui'
 export default {
   data () {
     return {

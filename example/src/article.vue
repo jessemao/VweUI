@@ -34,7 +34,7 @@
   </div>
 </template>
 <script>
-import Article from 'components/article'
+import {Article} from 'vweui'
 export default {
   components: {
     'weui-article': Article

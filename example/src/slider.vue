@@ -10,7 +10,7 @@
   </div>
 </template>
 <script>
-import Slider from 'components/slider'
+import {Slider} from 'vweui'
 export default {
   data () {
     return {

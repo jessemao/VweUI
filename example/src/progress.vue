@@ -14,7 +14,7 @@
   </div>
 </template>
 <script>
-import Progress from 'components/progress'
+import {Progress} from 'vweui'
 export default {
   components: {
     'weui-progress': Progress

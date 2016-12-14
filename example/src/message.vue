@@ -18,8 +18,7 @@
 </template>
 
 <script>
-import Button from 'components/button'
-import ButtonArea from 'components/button_area'
+import {Button, ButtonArea} from 'vweui'
 export default {
   components: {
     'weui-button': Button,

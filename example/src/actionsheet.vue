@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import {Button, ActionSheet} from '../../../dist/js/veui'
+import {Button, ActionSheet} from 'vweui'
 export default {
   data () {
     return {

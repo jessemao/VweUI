@@ -54,7 +54,7 @@
   </div>
 </template>
 <script>
-import Icon from 'components/icon'
+import {Icon} from 'vweui'
 export default {
   components: {
     'weui-icon': Icon

@@ -25,7 +25,7 @@ import Progress from './src/progress'
 import Slider from './src/slider'
 import './assets/style/weui.css'
 import './assets/style/main.css'
-import '../../dist/css/veui.css'
+import '../dist/css/veui.css'
 
 Vue.use(VueRouter)
 

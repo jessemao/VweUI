@@ -16,8 +16,7 @@
 </template>
 
 <script>
-import Button from 'components/button'
-import Toast from 'components/toast'
+import {Button, Toast} from 'vweui'
 export default {
   data () {
     return {

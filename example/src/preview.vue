@@ -17,8 +17,7 @@
   </div>
 </template>
 <script>
-import Preview, {PreviewItem} from 'components/preview'
-import Button from 'components/button'
+import {Preview, PreviewItem, Button} from 'vweui'
 export default {
   data () {
     return {

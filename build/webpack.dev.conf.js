@@ -12,7 +12,7 @@ console.log('2', Object)
 
 module.exports = merge(baseWebpackConfig, {
   entry: {
-    app: './src/example/main.js'
+    app: './example/main.js'
   },
   module: {
     loaders: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap })
@@ -31,7 +31,7 @@ module.exports = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'src/example/index.html',
+      template: 'example/index.html',
       inject: true
     })
   ],

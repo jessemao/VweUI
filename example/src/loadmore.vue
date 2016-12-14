@@ -12,7 +12,7 @@
   </div>
 </template>
 <script>
-import Loadmore from 'components/loadmore'
+import {Loadmore} from 'vweui'
 export default {
   components: {
     'weui-loadmore': Loadmore

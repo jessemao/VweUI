@@ -53,8 +53,7 @@
 </template>
 
 <script>
-import {InputRadio, InputCheckBox, InputNumber, InputTelVerify, InputDate, InputSwitch, InputText, InputTextArea, InputSelect, Form, FormTitle, FormTips} from 'components/inputs'
-import Cell from 'components/cell'
+import {InputRadio, InputCheckBox, InputNumber, InputTelVerify, InputDate, InputSwitch, InputText, InputTextArea, InputSelect, Form, FormTitle, FormTips, Cell} from 'vweui'
 
 export default {
   data () {

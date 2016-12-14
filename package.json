@@ -1,9 +1,9 @@
 {
   "name": "vweui",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "使用Vue封装，为微信Web服务量身设计，(capabale with Vue 2.0+)",
   "author": "Jingxian Mao",
-  "main": "/dist/js/vweui.js",
+  "main": "dist/js/vweui.js",
   "license": "MIT",
   "keywords": [
     "Vue",
@@ -12,6 +12,10 @@
     "WeUI",
     "WeUI 1.0"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jessemao/VweUI"
+  },
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
@@ -22,7 +26,8 @@
   },
   "dependencies": {
     "vue": "^2.0.1",
-    "vue-router": "^2.0.3"
+    "vue-router": "^2.0.3",
+    "vweui": "^0.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

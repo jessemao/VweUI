@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import TabBar from 'components/tabbar'
+import {TabBar} from 'vweui'
 
 export default {
   data () {

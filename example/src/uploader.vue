@@ -9,7 +9,7 @@
   </div>
 </template>
 <script>
-import Uploader from 'components/uploader'
+import {Uploader} from 'vweui'
 export default {
   data () {
     return {

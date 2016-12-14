@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import SearchBar from 'components/searchbar'
+import {SearchBar} from 'vweui'
 
 export default {
   data () {
